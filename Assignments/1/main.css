@@ -1,0 +1,250 @@
+body {
+   background: linear-gradient(#FFFFFFEE,#FFFFFFEE), url('background.jpg');
+   background-size: cover;
+}
+
+.navbar {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+nav li {
+   display: inline;
+   float: left;
+   margin: 20px 40px;
+   font-family: Arial;
+   color: #888888;
+   font-size: 24px;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   color: #FF77CC;
+}
+
+h1 {
+   font-family: Arial;
+   text-align: center;
+   font-size: 60px;
+
+}
+
+.intro_contain {
+   position: absolute;
+   top: 100px;
+   left: 50%;
+   transform: translate(-50%,0px);
+   margin-bottom: 100px;
+}
+
+.left {
+   float: left;
+   margin-right: 30px;
+}
+
+.left ul {
+   font-family: Arial;
+   font-size: 20px;
+}
+
+.right {
+   float: left;
+   margin-right: 50px;
+}
+
+#selfie {
+   width: 300px;
+   height: auto;
+   border: 5px solid black;
+}
+
+h2 {
+   font-family: Arial;
+   text-align: center;
+   font-size: 32px;
+}
+
+p {
+   font-size: 24px;
+   font-family: Arial;
+}
+
+.b {
+   font-weight: bold;
+}
+
+.cs {
+   display: inline-block;
+   padding: 10px 30px;
+   background: #66AAFF;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+}
+
+.right ul {
+   font-family: Arial;
+   font-size: 24px;
+}
+
+.bottom {
+   float: left;
+   clear: both;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+table {
+   font-family: Arial;
+   font-size: 20px;
+   min-width: 500px;
+}
+
+tr, td, th {
+   border: 1px solid black;
+   padding: 5px;
+}
+
+td[colspan="3"] {
+   text-align: center;
+}
+
+tr:nth-child(2n-1) {
+   background: #CCCCCC;
+}
+
+.resume {
+   background: #FFFFFF;
+   width: 50%;
+   padding: 0px 50px 150px;
+   margin: 100px 0px;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%,0px);
+}
+
+.resume h1 {
+   text-align: left;
+}
+
+.resume h2 {
+   text-align: left;
+   color: #00CCFF;
+   font-weight: 100;
+   font-size: 36px;
+}
+
+.resume p {
+   font-size: 16px;
+}
+
+.resume h3 {
+   text-transform: uppercase;
+   color: #00CCFF;
+   font-family: Arial;
+   font-weight: 100;
+   font-size: 30px;
+}
+
+#fr {
+   float: right;
+}
+
+.resume table {
+   width: 100%;
+   font-size: 16px;
+}
+
+.resume td, tr, th {
+   border: none;
+   background: #FFFFFF;
+}
+
+.resume tr td:nth-child(2) {
+   text-align: right;
+}
+.resume tr:nth-child(3) {
+   font-style: italic;
+}
+
+.resume tr:first-child {
+   font-weight: bold;
+}
+
+.resume h4 {
+   font-family: Arial;
+   font-size: 20px;
+}
+
+.resume ul li {
+   font-family: Arial;
+}
+
+.quote {
+   font-size: 16px;
+   font-style: italic;
+   position: absolute;
+   bottom: 50px;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+.links {
+   font-family: Arial;
+   font-size: 16px;
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+.links a {
+   margin: 0px 30px;
+   display: inline-block;
+}
+
+.links a:hover {
+   color: #FFCC00;
+}
+
+.word {
+   font-weight: bold;
+   color: #FF0000;
+}
+
+.down {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.down h3 {
+   font-size: 30px;
+   font-family: Arial;
+}
+
+.down button {
+   padding: 10px 30px;
+   font-size: 20px;
+   border-radius: 10px;
+   border: 2px solid #00CCFF;
+   background: #33DDFF;
+   cursor: pointer;
+   color: #FFFFFF;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%);
+}
